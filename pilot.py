@@ -8,5 +8,7 @@ if (altitude >= 10000 ):
     print("copy that, please go around ")
 elif (altitude <= 5000 ):
     print("copy that, can u please land the plane ")
+elif (altitude >= 5000):
+    print("go around ")
 else:
     print("invalid input")
